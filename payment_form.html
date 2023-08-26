@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payement form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Payement form</h1>
+        <h2>General information</h2>
+        <p>name: <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            
+            Male <input type="radio" name="gender" id="Male" required>
+            Female <input type="radio" name="gender" id="Female" required>
+        </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+        <p>State: 
+            <select name="state" id="">
+                <option value="">--Select--</option>
+                <option value="pradesh">UP</option>
+                <option value="pradesh">Delhi</option>
+                <option value="pradesh">hariyana</option>
+                <option value="pradesh">maharastra</option>
+                <option value="pradesh">tamilnadu</option>
+                <option value="pradesh">jammu & Kashmir</option>
+                <option value="pradesh">Uttarakhand</option>
+                <option value="pradesh">madhya pradesh</option>
+                <option value="pradesh">rajasthan</option>
+                <option value="pradesh">Gujrat</option>
+                <option value="pradesh">karnataka</option>
+                <option value="pradesh">bihar</option>
+                <option value="pradesh">West bengal</option>
+            </select>
+        </p>
+        <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+        <p>Email ID: <input type="email" name="email" id="email" required></p>
+        <h2>
+            Payement information
+        </h2>
+        <p>
+            Payement by Card only
+            <select name="card_name" id="">
+                <option value="">--select card</option>
+                <option value="card">Visa</option>
+                <option value="card">Credit Card</option>
+                <option value="card">Mastercard</option>
+
+            </select>
+            <p>User Name: <input type="text" name="name" id="name" required></p>
+            <p>cardnumber: <input type="number" name="card" id="card" required></p>
+            <p>CVV: <input type="password" name="CVV" id="cvv" required></p>
+            <input type="button" value="pay now">
+        </p>
+        
+
+        
+    </form>
+    
+
+    
+</body>
+</html>
