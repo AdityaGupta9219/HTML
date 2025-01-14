@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #0D1117;
+}
+.page1{
+    width: 100vw;
+}
+.header
+{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    height: 4vw;
+    background-color: #0D1117;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+}
+.header #logo{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+#logo p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.header p{
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.header #inputs{
+    margin-left: 200px;
+}
+.header input{
+    text-indent: 10px;
+    background-color: transparent;
+    height: 30px;
+    border: 1px solid white;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#inputs button{
+    padding: 10px;
+    border: none;
+    width: 120px;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #4BAAFC;
+    margin-left: 10px;
+}
+.main-body{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-body h1{
+    margin-top: 80px;
+    font-size: 5vw;
+    line-height: 100px;
+}
+.main-body .buttons1{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-body .buttons1 button{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.buttons1 #b1{
+    width: 200px;
+    background-color: #4BAAFC;
+
+}
+#p1{
+    margin-top: 10px;
+}
+.main-body img{
+    margin-top: 10px;
+    height: 100vh;
+    width: 80vw;
+    border-radius: 20px;
+}
+.main-body video{
+    margin-top: -90vh;
+    height: 80vh;
+    border-radius: 10px;
+}
+#p2{
+    margin-top: 80px;
+}
+.page2{
+    margin-top: 80vh;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.main-div{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+.divs{
+    height: 350px;
+    width: 380px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #161A20;
+}
+.divs .div-padd{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.div-padd img{
+    margin-top: 20px;
+
+}
+.second-div{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.second-div button{
+    background-color: #161A20;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+.divv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+    margin-top: -150px;
+}
+.page3{
+    height: 80vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+.text-div{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(59, 30, 30); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-div img{
+    border-radius: 30px;
+}
+.divss{
+    height: 60%;
+    width: 50%;
+    padding: 20px;
+    /* background-color: rgba(55, 201, 38, 0.463); */
+}
+.divss h3,p{
+    margin-top: 30px;
+}
+.divss h3{
+    color: #4BAAFC;
+    text-decoration:underline ;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+}
+.page4 .divs123{
+    height: 150px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divs123 p{
+    margin-top: 10px;
+}
+.pp{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divs2{
+    height: 30vh;
+    width: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divs2 .divvv{
+    height: 200px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #161A20;
+}
+.footer{
+    height: 20vh;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+
+}
+.left{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.anchor a{
+    margin-left: 20px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
